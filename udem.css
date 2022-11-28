@@ -1,0 +1,151 @@
+/*SECTION 1*/
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+div.cyber {
+    border-radius: 1px;
+    border: none;
+    width: 25%;
+    padding: 5px 40px;
+    background-color: white;
+}
+div.cyber p {
+    font-size: 20px;
+}
+
+
+div.cyber h1 {
+    font-size: 34px;
+    padding-left: 0px;
+    font-weight: bolder;
+      
+}
+
+nav.search {
+    padding-bottom: 15px;
+}
+
+div.sec2 {
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background-image: url(./img_udem/udem_img.jpg);
+
+}
+
+table.tool {
+    border-spacing: 20px;
+  }
+
+input {
+    border-radius: 20px;
+    padding-right: 250px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+}
+
+figcaption {
+    font-size: large;
+    font-weight: bolder;
+}
+
+div.course p {
+    font-size: 30px;
+
+}
+
+.section5 {
+    background-color: rgb(245, 245, 248)
+  }
+
+div.play, div.star, div.cros {
+    display: flex;
+    align-content: space-between;
+    border: none;
+    padding: 10px;
+    width: 400px;
+}
+
+.play img, .star img, .cros img {
+    border: none;
+    padding: 20px;
+}
+
+
+
+div.symbols {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+   
+
+  }
+
+ 
+
+td {
+    padding-left: 15px;
+  }
+  div.tool {
+    padding-left: 50px;
+    justify-content: center;
+  }
+
+  /*SECTION 3*/
+
+  div.sec3 {
+    border: solid;
+    width: 60%;
+}
+
+ul.lis {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+  /*SECTION 4*/
+  .section4 {
+    border: solid 1px;
+    padding: 30px;
+    margin-left: 15px;
+    max-width: min-content;
+    margin-bottom: 40px;
+    
+  }
+  div.python {
+    border: none;
+    max-width: 52%;
+    margin-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    text-align: justify;
+    }
+
+    div.python h1 {
+        font-size: 30px;
+    }
+    div.python p {
+        font-size: 16px;
+        font-stretch: expanded;
+    }
+
+    div.python button {
+        font-weight: 300;
+        padding: 10px;
+        background-color: white;
+        margin: 5px;
+    }
+
+   
