@@ -1,8 +1,19 @@
+
+
 /*SECTION 1*/
+
+*{
+    margin: 0 ;
+   outline: 1px solid red;
+}
+.nav-wrapper {
+    padding: 10px;
+}
 
 .section1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 div.cyber {
     border-radius: 1px;
@@ -23,9 +34,11 @@ div.cyber h1 {
       
 }
 
-nav.search {
-    padding-bottom: 15px;
+
+.search {
+    width: 50%;
 }
+
 
 div.sec2 {
     padding-left: 80px;
@@ -37,15 +50,17 @@ div.sec2 {
 
 table.tool {
     border-spacing: 20px;
+    width: 100%;
   }
 
 input {
     border-radius: 20px;
-    padding-right: 250px;
+    /* padding-right: 250px; */
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 2px;
+    width: 100%;
 }
 
 figcaption {
@@ -112,18 +127,24 @@ ul.lis {
 
 
 
-
-
-
   /*SECTION 4*/
   .section4 {
     border: solid 1px;
     padding: 30px;
-    margin-left: 15px;
-    max-width: min-content;
+    /* margin-left: 15px; */
+    width: 100%;
     margin-bottom: 40px;
     
   }
+.table-list {
+    max-width: 100%;
+}
+
+.table-wrapper {
+   max-width: 100%;
+    overflow: auto;
+}
+
   div.python {
     border: none;
     max-width: 52%;
@@ -148,4 +169,8 @@ ul.lis {
         margin: 5px;
     }
 
-   
+   .content td {
+        table-layout: auto;
+
+
+   }
